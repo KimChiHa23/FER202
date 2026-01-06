@@ -1,4 +1,3 @@
-```
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#f8f7ff] font-sans selection:bg-purple-200 selection:text-purple-900">
@@ -77,7 +76,7 @@ export default function Home() {
                   { name: "UI/UX Design", color: "bg-purple-100 text-purple-800" },
                   { name: "Git", color: "bg-orange-50 text-orange-700" },
                 ].map((skill) => (
-                  <div key={skill.name} className={`px - 4 py - 3 rounded - 2xl ${ skill.color } font - medium text - center hover: scale - 105 transition - transform cursor -default `}>
+                  <div key={skill.name} className={`px-4 py-3 rounded-2xl ${skill.color} font-medium text-center hover:scale-105 transition-transform cursor-default`}>
                     {skill.name}
                   </div>
                 ))}
@@ -115,4 +114,4 @@ export default function Home() {
     </div>
   );
 }
-```
+
